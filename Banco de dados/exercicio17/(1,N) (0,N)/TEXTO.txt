@@ -1,0 +1,4 @@
+O governo quer contratar professores para corrigir provas do enem. É necessário criar um banco de dados para armazenar o nome, a idade e a formação do professor. Sobre a prova deve-se armazenar o nome e a idade do aluno.
+
+
+UM PROFESSOR PODE CORRIGIR NENHUMA OU VARIAS PROVAS DO ENEM(0,N), E UMA PROVA PODE SER CORRIGIDA POR UM OU VARIOS PROFESSORES(1,N)

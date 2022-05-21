@@ -1,0 +1,5 @@
+Uma ong deseja elaborar um software para monitorar a adoçao de gatos,
+para isso deve ser criado um banco de dados para armazenar o nome, a idade e o sexo do felino.
+Também deve-se armazenar o nome e a idade da pessoa que ira adotar o animal.
+
+UMA PESSOA PODE ADOTAR NENHUM OU VARIOS GATOS (O,N), UM GATO PODE SER ADOTADO POR UMA E SOMENTE UMA PESSOA(0,1)

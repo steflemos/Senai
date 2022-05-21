@@ -1,0 +1,5 @@
+Uma imobiliária quer registrar quantas pessoas compram e/ou alugam casas. 
+Deve-se criar um banco de dados para armazenar o nome e a idade da pessoa. 
+Sobre as moradias é necessario armazenar o endereço.
+
+uma pessoa mora em nenhuma ou muitas casas(0,n) , em uma casa moram nenhuma ou muitas pessoas(0,n)

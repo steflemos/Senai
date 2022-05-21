@@ -1,0 +1,4 @@
+Uma escola deseja saber quantas pessoas se matriculam por ano, pensando nisso é necessário armazenar o nome,
+a idade e o nome dos pais do aluno. Sobre a escola deve ser armazenado o endereço.
+
+um aluno se matricula em nenhuma ou uma escola(0,1), uma escola matricula um aluno ou muitos(1,n). 

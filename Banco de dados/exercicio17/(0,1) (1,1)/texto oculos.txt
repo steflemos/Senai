@@ -1,0 +1,4 @@
+Uma ótica quer registrar a lente e o grau dos oculos que os clientes compram, para isso é necessario armazenar o nome, 
+a idade e a deficiencia visual dos clientes, também é necessário armazenar a armaçao e o grau do óculos.
+
+uma pessoa pode usar um ou apenas um oculos de grau(1,1), um oculos pode ser usado por nenhuma, ou uma pessoa (0,1).

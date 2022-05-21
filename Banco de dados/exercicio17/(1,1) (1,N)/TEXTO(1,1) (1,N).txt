@@ -1,0 +1,5 @@
+Um mercado quer registrar quantos produtos sao vendidodos por dia, Para isso deve ser criados um banco de dados para armazenar o tipo de produto, a validade e o nome. Sobre o mercado deve-se armazenar o nome e o endereço.
+
+
+
+um mercado vende um ou varios produtos(1,n), um produto é vendido por 1 e somente 1 mercado(1,1).

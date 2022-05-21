@@ -1,0 +1,6 @@
+Uma escola quer registrar quantas classes cada sala possui. Deve-se criar um banco de dados para armazenar o numero da sala
+Sobre as mesas é necessário armazenar o tipo.
+
+
+
+em uma sala pode existir nenhuma ou varias mesas(0,N), uma mesa pode estar em uma ou somente uma sala (1,1).
