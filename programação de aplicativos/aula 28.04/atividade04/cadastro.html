@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>cadastre-se</title>
+</head>
+<body>
+    <div class="container-table">
+        <div class="content">
+            <div id="formulario" class="formulario">
+                <div>
+                    <form action="createUser.php" method="post">
+                        <div id="title">
+                            <h1 id="title-form">Cadastro de novo Usuário</h1>
+                            <a class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="container-form">
+                            <div class="input_div">
+                                <input class="input_form" type="text" name="name" placeholder="Digite seu Nome"
+                                value="" required>
+                            </div>
+                            <div class="input_div">
+                                <input class="input_form" type="text" name="email" placeholder="Digite seu Email"
+                                value="" required>
+                            </div>
+                            <div class="input_div">
+                                <input class="input_form" type="text" name="login" placeholder="Digite seu Login"
+                                value="" required>
+                            </div>
+                            <div class="input_div">
+                                <input class="input_form" type="password" name="password" placeholder="Digite sua Senha" required>
+                            </div>
+                             <div class="input_div">
+                                <input class="input_form" type="text" name="telefone" placeholder="Digite seu Telefone"
+                                value="" required>
+                            </div>
+                             <div class="input_div">
+                                <input class="input_form" type="text" name="city" placeholder="Digite sua Cidade"
+                                value="" required>
+                            </div>
+                             <div class="input_div">
+                                <input class="input_form" type="text" name="state" placeholder="Digite seu Estado"
+                                value="" required>
+                            </div>
+                             <div class="input_div">
+                                Sexo:
+                                <input type="radio" name="sexo"
+                                value="Masculino" required> Masculino
+                                <input type="radio" name="sexo"
+                                value="Feminino" required> Feminino
+                            </div>
+                        </div>
+                        <button class="send-buttons" name="action" value="create"> enviar </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
