@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Você é bom em matemática?</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="quiz1">
+     <div textos>
+        <label class="title">Quanto é </label>
+        <label class="title"id='n1' ></label>
+        <label class="title" id='operation'></label>
+        <label class="title" id='n2' onclick="ask()"></label>
+        <label class="title">?</label><br>
+    </div>
+    
+
+    <div class=" containerinput">
+        <input class="input" type="number" id="answer"><br>
+        <button onclick="ask()">Calcular</button><br>
+    </div>  
+        <p id="p"></p>
+        <img id="img" class="imagem">
+        <div  class="aaa" id="button">
+            <!-- <button id="button" class="botao"> Proxima pergunta</button> -->
+        </div>
+        </div>
+
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
